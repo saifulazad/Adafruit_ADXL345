@@ -12,7 +12,7 @@
     products from Adafruit!
 
     @section  HISTORY
-
+adsdsds
     v1.0  - First release
 */
 /**************************************************************************/
@@ -106,7 +106,7 @@ typedef enum
 class Adafruit_ADXL345_Unified : public Adafruit_Sensor {
  public:
   Adafruit_ADXL345_Unified(int32_t sensorID = -1);
-  
+
   bool       begin(void);
   void       setRange(range_t range);
   range_t    getRange(void);
